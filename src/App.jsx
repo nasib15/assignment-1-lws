@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Clients from "./components/Clients";
 import CTASection from "./components/CTASection";
 import Faq from "./components/Faq";
 import Hero from "./components/Hero";
@@ -16,6 +17,7 @@ function App() {
       <About />
       <CTASection />
       <Faq />
+      <Clients />
     </>
   );
 }
