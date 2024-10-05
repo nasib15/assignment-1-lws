@@ -3,6 +3,7 @@ import Clients from "./components/Clients";
 import Contact from "./components/Contact";
 import CTASection from "./components/CTASection";
 import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import MainFeatures from "./components/MainFeatures";
 import Navbar from "./components/Navbar";
@@ -20,6 +21,7 @@ function App() {
       <Faq />
       <Clients />
       <Contact />
+      <Footer />
     </>
   );
 }
