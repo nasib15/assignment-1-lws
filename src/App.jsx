@@ -1,4 +1,5 @@
 import About from "./components/About";
+import CTASection from "./components/CTASection";
 import Hero from "./components/Hero";
 import MainFeatures from "./components/MainFeatures";
 import Navbar from "./components/Navbar";
@@ -12,6 +13,7 @@ function App() {
       <MainFeatures />
       <Properties />
       <About />
+      <CTASection />
     </>
   );
 }
