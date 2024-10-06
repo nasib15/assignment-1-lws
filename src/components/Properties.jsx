@@ -1,7 +1,9 @@
+import realEstateData from "../assets/realEstateData.json";
 import PropertiesCard from "./PropertiesCard";
 import SectionTitle from "./SectionTitle";
 
 export default function Properties() {
+  console.log(realEstateData);
   return (
     <section>
       <div className="container">
@@ -16,9 +18,9 @@ export default function Properties() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <PropertiesCard />
-          <PropertiesCard />
-          <PropertiesCard />
+          {realEstateData.map((property) => (
+            <PropertiesCard key={property.id} {...property} />
+          ))}
         </div>
       </div>
     </section>

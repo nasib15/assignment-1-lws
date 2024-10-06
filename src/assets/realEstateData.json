@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "https://img.freepik.com/free-photo/nature-landscape-hawaii-with-digital-art-style_23-2151793619.jpg?t=st=1728203723~exp=1728207323~hmac=4394a80c72243b6695e609da917864d7046f60f60104d26f270211c0eb4fb682&w=1480",
+    "estateName": "Sunny Villas",
+    "price": 35000,
+    "bedroom": 3,
+    "bathroom": 1
+  },
+  {
+    "id": 2,
+    "image": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150755.jpg?t=st=1728203325~exp=1728206925~hmac=aee14984e8c9520badabbf96a6525f84f31bcc6bf56c59e94761bf5873cf39c1&w=1480",
+    "estateName": "Ocean View Apartments",
+    "price": 45000,
+    "bedroom": 4,
+    "bathroom": 3
+  },
+  {
+    "id": 3,
+    "image": "https://img.freepik.com/premium-photo/cityscape-residential-area-with-modern-apartment-buildings-new-green-urban-landscape-city_1033579-212331.jpg?w=1480",
+    "estateName": "Mountain Ridge Estate",
+    "price": 50000,
+    "bedroom": 5,
+    "bathroom": 4
+  },
+  {
+    "id": 4,
+    "image": "https://img.freepik.com/free-photo/3d-house-model-with-modern-architecture_23-2151004068.jpg?t=st=1728203653~exp=1728207253~hmac=8b7847aebd13c355ac06f928c046d68b716152250ac7a208673ba5ef364ace98&w=1480",
+    "estateName": "Green Valley Residence",
+    "price": 30000,
+    "bedroom": 2,
+    "bathroom": 2
+  },
+  {
+    "id": 5,
+    "image": "https://img.freepik.com/free-photo/mumbai-skyline-skyscrapers-construction_469504-21.jpg?t=st=1728203557~exp=1728207157~hmac=994b9b45e7e88e36d5a1b7010f879d2f8fe316198e570823bc6cccad504a1c3e&w=1480",
+    "estateName": "City Heights Towers",
+    "price": 60000,
+    "bedroom": 4,
+    "bathroom": 2
+  },
+  {
+    "id": 6,
+    "image": "https://img.freepik.com/free-photo/luxury-travel-resort-design_1409-5609.jpg?t=st=1728203626~exp=1728207226~hmac=0143b31c0219e000835d74eab09b4ffeb0aa0ebba185cf9dce68e4bba6a4280f&w=1480",
+    "estateName": "Riverside Cottage",
+    "price": 27500,
+    "bedroom": 3,
+    "bathroom": 2
+  }
+]

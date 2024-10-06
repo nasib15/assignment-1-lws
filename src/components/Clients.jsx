@@ -1,6 +1,3 @@
-import team1 from "../assets/team/team-01.png";
-import team2 from "../assets/team/team-02.png";
-import team4 from "../assets/team/team-04.png";
 import ClientCard from "./ClientCard";
 import SectionTitle from "./SectionTitle";
 
@@ -25,28 +22,37 @@ export default function Clients() {
           </div>
         </div>
         <div className="-mx-4 flex flex-wrap justify-center">
+          {/*For religious reason I have used male pic.. SORRY */}
           <ClientCard
             name={"Melissa Tatcher"}
             designation={"Marketing Expert"}
-            img={team1}
+            img={
+              "https://img.freepik.com/premium-photo/arafed-man-with-black-jacket-black-jacket-generative-ai_1035767-12999.jpg?w=900"
+            }
           />
+          {/*For religious reason I have used male pic.. SORRY */}
           <ClientCard
             name={"Stuard Ferrel"}
             designation={"Digital Marketer"}
-            img={team2}
+            img={
+              "https://img.freepik.com/premium-photo/arafed-man-with-mustache-beard-smiling-camera-generative-ai_1035767-13084.jpg?w=996"
+            }
           />
-
+          {/*For religious reason I have used male pic.. SORRY */}
           <ClientCard
             name={"Eva Hudson"}
             designation={"Creative Designer"}
             img={
-              "https://cdn.tailgrids.com/1.0/assets/images/team/image-07/image-03.png"
+              "https://img.freepik.com/premium-photo/man-hat-holding-plant-with-hat-it_1308172-527980.jpg?w=996"
             }
           />
+          {/*For religious reason I have used male pic.. SORRY */}
           <ClientCard
             name={"Jackie Sanders"}
             designation={"Founder of Facebook"}
-            img={team4}
+            img={
+              "https://img.freepik.com/premium-photo/arafed-man-with-beard-jacket-smiling-picture-generative-ai_1035767-13015.jpg?w=900"
+            }
           />
         </div>
       </div>
