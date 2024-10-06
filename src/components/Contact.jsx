@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import location from "../assets/contact/location.svg";
-import map from "../assets/contact/map.svg";
+import { LocationIcon, MapIcon } from "./svg/IconSVG";
 
 function InputField({ label, text, type, name, placeholder }) {
   return (
@@ -41,11 +40,7 @@ export default function Contact() {
               <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
                 <div className="mb-8 flex w-[330px] max-w-full">
                   <div className="mr-6 text-[32px] text-primary">
-                    <img
-                      src={location}
-                      className="size-11"
-                      alt="location icon"
-                    />
+                    <LocationIcon />
                   </div>
                   <div>
                     <h5 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
@@ -58,7 +53,7 @@ export default function Contact() {
                 </div>
                 <div className="mb-8 flex w-[330px] max-w-full">
                   <div className="mr-6 text-[32px] text-primary">
-                    <img src={map} className="size-8" alt="" />
+                    <MapIcon />
                   </div>
                   <div>
                     <h5 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">

@@ -1,9 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
-import aboutBg1 from "../assets/about/about-bg-1.svg";
-import aboutBg2 from "../assets/about/about-bg-2.svg";
-import aboutBg3 from "../assets/about/about-bg-3.svg";
 import aboutImg1 from "../assets/about/about-image-01.jpg";
 import aboutImg2 from "../assets/about/about-image-02.jpg";
+import { AboutBg1, AboutBg2, AboutBg3 } from "./svg/IconSVG";
 
 export default function About() {
   return (
@@ -74,13 +72,13 @@ export default function About() {
                     </div>
                     <div>
                       <span className="absolute left-0 top-0 -z-10">
-                        <img src={aboutBg1} alt="about bg" />
+                        <AboutBg1 />
                       </span>
                       <span className="absolute right-0 top-0 -z-10">
-                        <img src={aboutBg2} alt="about bg" />
+                        <AboutBg2 />
                       </span>
                       <span className="absolute bottom-0 right-0 -z-10">
-                        <img src={aboutBg3} alt="about bg" />
+                        <AboutBg3 />
                       </span>
                     </div>
                   </div>

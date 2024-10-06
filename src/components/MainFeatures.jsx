@@ -1,9 +1,11 @@
-import main1 from "../assets/main/main1.svg";
-import main2 from "../assets/main/main2.svg";
-import main3 from "../assets/main/main3.svg";
-import main4 from "../assets/main/main4.svg";
 import MainFeaturesCard from "./MainFeaturesCard";
 import SectionTitle from "./SectionTitle";
+import {
+  MainSectionSVG1,
+  MainSectionSVG2,
+  MainSectionSVG3,
+  MainSectionSVG4,
+} from "./svg/IconSVG";
 
 export default function MainFeatures() {
   return (
@@ -28,28 +30,28 @@ export default function MainFeatures() {
             description={
               "Discover an array of hand-picked properties that meet the highest standards of luxury and comfort."
             }
-            svg={main1}
+            svg={<MainSectionSVG1 />}
           />
           <MainFeaturesCard
             title={" Personalized Property Matching"}
             description={
               "Our advanced matching system pairs you with properties that align with your specific needs and desires."
             }
-            svg={main2}
+            svg={<MainSectionSVG2 />}
           />
           <MainFeaturesCard
             title={" Expert Guidance and Support"}
             description={
               "Benefit from the expertise of our dedicated team of real estate professionals."
             }
-            svg={main3}
+            svg={<MainSectionSVG3 />}
           />
           <MainFeaturesCard
             title={" Virtual Tours"}
             description={
               "Take advantage of our cutting-edge virtual tours and 3D walkthroughs to explore properties from the comfort of your home."
             }
-            svg={main4}
+            svg={<MainSectionSVG4 />}
           />
         </div>
       </div>

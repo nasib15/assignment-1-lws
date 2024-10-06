@@ -1,5 +1,4 @@
-import bathSVG from "../assets/properties/bath.svg";
-import bedSVG from "../assets/properties/bed.svg";
+import { BathIcon, BedIcon } from "./svg/IconSVG";
 
 export default function PropertiesCard({
   image,
@@ -21,17 +20,13 @@ export default function PropertiesCard({
       </div>
       <div className="flex justify-between p-4 text-gray-700 border-t border-gray-300">
         <div className="flex items-center">
-          <div className="w-6 h-6 mr-3 text-gray-600 fill-current">
-            <img src={bedSVG} alt="" />
-          </div>
+          <BedIcon />
           <p>
             <span className="font-bold text-gray-900">{bedroom}</span> Bedrooms
           </p>
         </div>
         <div className="flex items-center">
-          <div className="w-6 h-6 mr-3 text-gray-600 fill-current">
-            <img src={bathSVG} alt="bathicon" />
-          </div>
+          <BathIcon />
           <p>
             <span className="font-bold text-gray-900">{bathroom}</span>{" "}
             Bathrooms

@@ -1,7 +1,9 @@
-import dottedShape from "../assets/team/dotted-shape.svg";
-import fb from "../assets/team/fb.svg";
-import insta from "../assets/team/insta.svg";
-import twitter from "../assets/team/twitter.svg";
+import {
+  FacebookIcon,
+  FaqDot,
+  InstagramIcon,
+  TwitterIcon,
+} from "./svg/IconSVG";
 
 export default function ClientCard({ name, designation, img }) {
   return (
@@ -15,7 +17,7 @@ export default function ClientCard({ name, designation, img }) {
           />
           <span className="absolute bottom-0 left-0 -z-10 h-10 w-10 rounded-full bg-secondary opacity-0 transition-all group-hover:opacity-100"></span>
           <span className="absolute right-0 top-0 -z-10 opacity-0 transition-all group-hover:opacity-100">
-            <img src={dottedShape} alt="" />
+            <FaqDot />
           </span>
         </div>
         <div className="text-center">
@@ -30,19 +32,19 @@ export default function ClientCard({ name, designation, img }) {
               href="javascript:void(0)"
               className="text-dark-6 hover:text-primary"
             >
-              <img src={fb} alt="facebook icon" />
+              <FacebookIcon />
             </a>
             <a
               href="javascript:void(0)"
               className="text-dark-6 hover:text-primary"
             >
-              <img src={twitter} alt="twitter icon" />
+              <TwitterIcon />
             </a>
             <a
               href="javascript:void(0)"
               className="text-dark-6 hover:text-primary"
             >
-              <img src={insta} alt="insta icon" />
+              <InstagramIcon />
             </a>
           </div>
         </div>

@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import ctabanner1 from "../assets/cta/cta-banner-1.svg";
-import ctabanner2 from "../assets/cta/cta-banner-2.svg";
+import { CTABanner1, CTABanner2 } from "./svg/IconSVG";
 
 export default function CTASection() {
   return (
@@ -33,11 +32,11 @@ export default function CTASection() {
       </div>
       <div>
         <span className="absolute left-0 top-0">
-          <img src={ctabanner1} alt="" />
+          <CTABanner1 />
         </span>
 
         <span className="absolute bottom-0 right-0">
-          <img src={ctabanner2} alt="" />
+          <CTABanner2 />
         </span>
       </div>
     </section>

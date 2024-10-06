@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
-import dot from "../assets/hero/dot.svg";
 import hero from "../assets/hero/hero-image.png";
+import { WhiteDot } from "./svg/IconSVG";
 
 export default function Hero() {
   return (
@@ -51,10 +51,10 @@ export default function Hero() {
                 />
               </div>
               <div className="absolute -left-9 bottom-0 z-[-1]">
-                <img src={dot} alt="dot" />
+                <WhiteDot />
               </div>
               <div className="absolute -right-6 -top-6 z-[-1]">
-                <img src={dot} alt="dot" />
+                <WhiteDot />
               </div>
             </div>
           </div>

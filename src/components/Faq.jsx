@@ -1,7 +1,6 @@
-import bluedot from "../assets/faq/bluedot.svg";
-import greendot from "../assets/faq/greendot.svg";
 import FaqCard from "./FaqCard";
 import SectionTitle from "./SectionTitle";
+import { DotShape } from "./svg/IconSVG";
 
 export default function Faq() {
   return (
@@ -29,10 +28,10 @@ export default function Faq() {
       </div>
       <div>
         <span className="absolute left-4 top-4 -z-[1]">
-          <img src={greendot} alt="" />
+          <DotShape color={"#13C296"} />
         </span>
         <span className="absolute bottom-4 right-4 -z-[1]">
-          <img src={bluedot} alt="" />
+          <DotShape color={"#3758F9"} />
         </span>
       </div>
     </section>
