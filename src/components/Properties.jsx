@@ -3,7 +3,6 @@ import PropertiesCard from "./PropertiesCard";
 import SectionTitle from "./SectionTitle";
 
 export default function Properties() {
-  console.log(realEstateData);
   return (
     <section>
       <div className="container">

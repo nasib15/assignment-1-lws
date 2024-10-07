@@ -45,10 +45,7 @@ export default function Footer() {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
             <div className="mb-10 w-full">
-              <a
-                href="javascript:void(0)"
-                className="mb-6 inline-block max-h-[100px]"
-              >
+              <a href="#" className="mb-6 inline-block max-h-[100px]">
                 <img src={logo} alt="logo" className="max-w-full" />
               </a>
               <p className="mb-8 lg:max-w-[270px] text-base text-gray-7">
@@ -56,28 +53,16 @@ export default function Footer() {
                 technology.
               </p>
               <div className="-mx-3 flex items-center">
-                <a
-                  href="javascript:void(0)"
-                  className="px-3 text-gray-7 hover:text-white"
-                >
+                <a href="#" className="px-3 text-gray-7 hover:text-white">
                   <FacebookIconFooter />
                 </a>
-                <a
-                  href="javascript:void(0)"
-                  className="px-3 text-gray-7 hover:text-white"
-                >
+                <a href="#" className="px-3 text-gray-7 hover:text-white">
                   <TwitterIconFooter />
                 </a>
-                <a
-                  href="javascript:void(0)"
-                  className="px-3 text-gray-7 hover:text-white"
-                >
+                <a href="#" className="px-3 text-gray-7 hover:text-white">
                   <InstagramIconFooter />
                 </a>
-                <a
-                  href="javascript:void(0)"
-                  className="px-3 text-gray-7 hover:text-white"
-                >
+                <a href="#" className="px-3 text-gray-7 hover:text-white">
                   <LinkedInIcon />
                 </a>
               </div>

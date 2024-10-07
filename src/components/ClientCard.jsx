@@ -28,22 +28,13 @@ export default function ClientCard({ name, designation, img }) {
             {designation}
           </p>
           <div className="flex items-center justify-center gap-5">
-            <a
-              href="javascript:void(0)"
-              className="text-dark-6 hover:text-primary"
-            >
+            <a href="#" className="text-dark-6 hover:text-primary">
               <FacebookIcon />
             </a>
-            <a
-              href="javascript:void(0)"
-              className="text-dark-6 hover:text-primary"
-            >
+            <a href="#" className="text-dark-6 hover:text-primary">
               <TwitterIcon />
             </a>
-            <a
-              href="javascript:void(0)"
-              className="text-dark-6 hover:text-primary"
-            >
+            <a href="#" className="text-dark-6 hover:text-primary">
               <InstagramIcon />
             </a>
           </div>
