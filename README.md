@@ -1,5 +1,7 @@
 # Assignment - 1 (LWS)
 
+## Live Link: https://real-estate-assignment-1-lws.vercel.app/
+
 ## Requirements:
 
 - Convert the template into React components and apply logic sense to transfer into components
