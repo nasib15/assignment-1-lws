@@ -15,7 +15,7 @@
 1. **Clone the repository:**
 
    ```
-   git clone https://github.com/nasib15/assignment-1-lws
+   git clone https://github.com/nasib15/assignment-1-lws.git
    cd assignment-1-lws
    ```
 
